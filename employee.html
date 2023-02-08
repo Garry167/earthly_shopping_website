@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- registration form -->
+    
+    <div id="contact" class="container text-warning">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="card mt-5 border border-warning shadow">
+                    <div class="card-title ">
+                        <h2 class="text-center py-2"> Register Yourself </h2>
+                        <hr>
+
+                    </div>
+                    <div class="card-body border border-light shadow">
+                        <form action="connect.php" method="post">
+
+                            <h5><label for="country">Country</label></h5>
+                            <div>
+                                <select class="form-control">
+                                    <option>India</option>
+                                    <option>Sri Lanka</option>
+                                    <option>Australia</option>
+                                    <option>Japan</option>
+                                    <option>England</option>
+                                </select>
+                            </div>
+                            <br>
+                            <h5><label for="name">Name</label></h5>
+                            <input type="text" name="Name" placeholder="Enter Your Name" class="form-control mb-2">
+
+                            <br>
+                            <h5><label for="email">E-mail </label></h5>
+                            <input type="email" name="E-mail" placeholder="Enter Your E-mail" class="form-control mb-2">
+                            <h5><label for="password">Password</label></h5>
+                            <input type="text" name="password" placeholder="Enter Password" class="form-control mb-2">
+                            <h5><label for="gender">Gender</label></h5>
+
+                            <div>
+                                <label for="male" class="radio-inline text-dark "><input type="radio" name="gender" value="m"
+                                        id="male" />Male</label>
+                                <br>
+
+                                <label for="female" class="radio-inline text-dark"><input type="radio" name="gender" value="f"
+                                        id="female" />Female</label>
+                                <br>
+                                <label for="others" class="radio-inline text-dark"><input type="radio" name="gender" value="o"
+                                        id="others" />Others</label>
+                            </div>
+
+                            
+                            <!-- <input type="text" name="country" placeholder="Enter Password" class="form-control mb-2"> -->
+                            <br>
+                            <button class="btn btn-outline-warning shadow" name="btn-send"> Submit </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+}
+/* end of global font */
+
+/* for font */
+.font{
+    font-family: 'Neuton',serif;
+    font-weight: 600;
+}
+
+
+/* theme color background */
+.myColor{
+    background-color: #28a745;
+
+}
+
+/* theme color for text */
+.textMyColor{
+    color: #28a745;
+}
+
+/* global styling end */
+
+/* main styling start */
+
+/* start of navbar styling */
+#mainNavbar{
+    font-size: medium;
+    font-family: 'Neuton', serif;
+}
+
+/* for setting brand logo color */
+#mainNavbar .navbar-brand {
+    /* color: #FFBE13; */
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+/* end of navbar styling */
+
+/* this is for nav-link */
+#mainNavbar .nav-link {
+    font-size: large;
+}
+
+/* this is for active button color */
+#mainNavbar .navbar-nav .active .nav-link{
+    color: #ffffff;
+}
+
+/*for hover option of nav link */
+#mainNavbar .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+#myName{
+    font: 58px;
+    font-family: 'Neuton',serif;
+
+}
+
+/* this is for section para spacing */
+.paraSpacing{
+    line-height: 20px;
+}
+
+/* card styling start */
+.hov:hover{
+    text-shadow: none!important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+
+.hov_1:hover{
+    text-shadow: none!important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+/* card styling end */
+
+.container .card .content .para{
+    background: linear-gradient(to bottom, #000000,#9b9b9b);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
+/* about section */
+#about{
+    margin-top: 100px;
+}
+
+/* read more */
+.card a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
